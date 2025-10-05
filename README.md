@@ -59,8 +59,8 @@ Your account needs the following IAM roles:
 
 ### Option 1: Clone the Repository
 
-git clone https://github.com/rajmohanacharya/gcp-resource-summary-cost-analysis-powershell-script.git
-cd gcp-resource-summary
+- git clone https://github.com/rajmohanacharya/gcp-resource-summary-cost-analysis-powershell-script.git
+- cd gcp-resource-summary
 
 ### Option 2: Direct Download
 

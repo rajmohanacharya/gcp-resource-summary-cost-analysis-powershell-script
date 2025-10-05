@@ -155,38 +155,11 @@ $lbMonthlyCost = 18.00 # Per forwarding rule
 
 ## 📊 Sample Output
 
-═══════════════════════════════════════
-COMPLETE GCP RESOURCE SUMMARY
-Project: cloudlibrary-474113
-═══════════════════════════════════════
+<img width="615" height="927" alt="image" src="https://github.com/user-attachments/assets/b41ce13f-5ebb-413d-9078-4bc7300a4de3" />
+<img width="570" height="746" alt="image" src="https://github.com/user-attachments/assets/45cac64d-2bcc-4149-9439-1bf62ed81f3f" />
+<img width="480" height="750" alt="image" src="https://github.com/user-attachments/assets/4cb16019-597c-4960-b0f7-debd8cbac732" />
+<img width="1194" height="741" alt="image" src="https://github.com/user-attachments/assets/1bfbb540-16bd-4b0e-8602-508cb1fe79a4" />
 
-GCP PROJECT & BILLING INFORMATION
-─────────────────────────────────────────
-Project Details:
-Project ID: cloudlibrary-474113
-Project Number: 123456789012
-Project Name: CloudLibrary
-Created: 2025-09-01T10:30:00.000Z
-
-High-Level Resource Summary:
-GKE Clusters: 1
-Compute Instances: 2
-Persistent Disks: 2
-VPC Networks: 1
-Load Balancers: 1
-Storage Buckets: 0
-
-...
-
-TOTAL COST:
-Monthly: $51.81 (₹4,377.89)
-Daily: $1.73 (₹146.26)
-Hourly: $0.07 (₹6.09)
-
-Free Trial ($300 = ₹25,350 credit):
-Days remaining: ~173 days
-Hours remaining: ~4285 hours
-Credit burn rate: $1.73/day (₹146.26/day)
 
 ## 🤝 Contributing
 

@@ -90,7 +90,7 @@ Write-Host "`nHigh-Level Resource Summary:" -ForegroundColor Cyan
 $gkeCount = (gcloud container clusters list --project=$project --format=json | ConvertFrom-Json).Count
 $vmCount = (gcloud compute instances list --project=$project --format=json | ConvertFrom-Json).Count
 $diskCount = (gcloud compute disks list --project=$project --format=json | ConvertFrom-Json).Count
-$vpcCount = (gcloud compute networks list --project=$project --format=json | ConvertFrom-Json).Count
+$vpcCount = (gcloud compute networks list --project=$project --filter="name!=default" --format=json | ConvertFrom-Json).Count
 $lbCount = (gcloud compute forwarding-rules list --project=$project --format=json 2>$null | ConvertFrom-Json).Count
 $bucketCount = (gcloud storage buckets list --project=$project --format=json 2>$null | ConvertFrom-Json).Count
 

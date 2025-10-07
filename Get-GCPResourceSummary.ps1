@@ -61,6 +61,9 @@ if ([string]::IsNullOrEmpty($ProjectId)) {
 $response = Invoke-RestMethod -Uri "https://open.er-api.com/v6/latest/USD"
 $usdToInr = [math]::Round($response.rates.INR, 2)
 
+# Set execution policy without prompting 
+Set-ExecutionPolicy Bypass -Scope Process –Force 
+
 Write-Host "═══════════════════════════════════════" -ForegroundColor Cyan
 Write-Host "  COMPLETE GCP RESOURCE SUMMARY" -ForegroundColor Cyan
 Write-Host "  Project: $project" -ForegroundColor Cyan

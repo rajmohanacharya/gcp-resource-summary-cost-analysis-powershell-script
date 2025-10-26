@@ -72,7 +72,7 @@ Download the `Get-GCPResourceSummary.ps1` file directly from this repository.
 .\Get-GCPResourceSummary.ps1
 
 ### PowerShell Restrictions by your Organization
-**If you are planning to run this script on your office laptop/desktop, 
+**If you are planning to run this script on your Corporate laptop/desktop, 
 it might fail with restrictions error message
 As a workaround, you can copy the full contents of the script and run it in powershell**
 
